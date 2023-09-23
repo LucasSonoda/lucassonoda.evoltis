@@ -37,7 +37,7 @@ namespace lucassonoda.evoltis.EmployeeUltils
             Name.Text = empl.Name;
             Surname.Text = empl.Surname;
             Email.Text = empl.Email;
-            SalaryText.Text = empl.Salary.Amount.ToString();
+            SalaryText.Text = empl.Salary.Amount.ToString().Replace(",",".");
         }
         public EmployeeDTO Map()
         {
