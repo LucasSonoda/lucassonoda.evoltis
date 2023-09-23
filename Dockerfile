@@ -6,6 +6,7 @@ ENV container_name=sqlserver
 ENV hostname=sqlserver
 COPY script.sql . 
 COPY initialization.sh .
+COPY initscrip.sh .
 EXPOSE 1433
 USER mssql
 CMD ["/bin/bash"]
