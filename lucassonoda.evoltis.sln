@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lucassonoda.evoltis", "lucassonoda.evoltis\lucassonoda.evoltis.csproj", "{E6478B06-D5A0-46B3-906B-90B13F4AF972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{CD4A7B50-6AA2-4A23-ADCD-E26BCC1625D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6478B06-D5A0-46B3-906B-90B13F4AF972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6478B06-D5A0-46B3-906B-90B13F4AF972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6478B06-D5A0-46B3-906B-90B13F4AF972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6478B06-D5A0-46B3-906B-90B13F4AF972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4A7B50-6AA2-4A23-ADCD-E26BCC1625D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4A7B50-6AA2-4A23-ADCD-E26BCC1625D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4A7B50-6AA2-4A23-ADCD-E26BCC1625D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4A7B50-6AA2-4A23-ADCD-E26BCC1625D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28B2D3C6-E32D-433C-853F-439B57E12AB9}
+	EndGlobalSection
+EndGlobal
